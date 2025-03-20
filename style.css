@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  overflow-x: hidden;
+  --blue: #1e90ff;
+  --pink: #d10363;
+  --white: aliceblue;
+  --silver: silver;
+  --pop: "Poppins";
+}
+
+/* the :root pseudo-class refers to the highest-level parent of all elements in the document, typically the <html> element. The overflow-x: hidden; declaration hides any overflow content that extends beyond the horizontal boundaries of the root element. This means that if any content or element within the webpage exceeds the width of the viewport, it will not be scrollable horizontally and will be clipped or hidden instead. */
+
+body {
+  /* background: url(/Images/background.jpg); */
+  /* background-color: #e0fbe2; */
+  /* background-color: #C9EAE3; */
+}
+
+header {
+  width: 98vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  z-index: 1;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+div h2 {
+  color: purple;
+  font-family: "Dancing Script", cursive;
+}
+
+div h2 span {
+  color: #973131;
+}
+
+nav ul li a {
+  color: #973131;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: peru;
+  border-bottom: 1.5px solid peru;
+}
+
+.header-button {
+  position: relative;
+  right: 13px;
+  /* margin-right: 10px; */
+  padding: 5px 17px;
+  border-radius: 10px;
+  background: aliceblue;
+  border: 1.5px solid green;
+  font-size: 15px;
+  color: green;
+}
+
+.header-button:hover {
+  color: purple;
+  background-color: rgb(176, 198, 218);
+  /* opacity: 0.5; */
+}
+
+.main {
+  width: 100vw;
+  /* background-color: aqua; */
+  background-color: #c9eae3;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+.section1 img {
+  position: relative;
+  bottom: 10px;
+  right: 20px;
+  width: 300px;
+  filter: drop-shadow(5px 5px 5px #252525);
+  border: 1px solid whitesmoke;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.section1 p {
+  color: rgb(16, 98, 170);
+  margin-left: 30px;
+  margin-right: 90px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30% 70% 30% 70% / 70% 70% 30% 30%;
+  background-color: #f5e7b2;
+}
+
+#first-span {
+  color: blueviolet;
+}
+
+#second-span {
+  color: rgb(16, 98, 170);
+  font-size: 13px;
+}
+
+#element {
+  color: blueviolet;
+}
+
+.section1-button {
+  background-color: #d10363;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 10px;
+  color: aliceblue;
+  position: relative;
+  left: 20px;
+}
+
+.section1-button:hover {
+  color: gold;
+}
+
+.article {
+  /* filter: drop-shadow(5px 5px 5px #252525); */
+  /* box-shadow: 5px 5px 5px #252525; */
+  /* this below line was used  */
+  /* box-shadow: 0 0 5px 5px rgba(0,0,0,.2); */
+}
+
+.section2 {
+  height: 270vh;
+  width: 100vw;
+  background-color: #fff5e1;
+}
+
+.section2-body1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2-body2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.section2-body3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.section2-body4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.section2-heading {
+  color: rgb(48, 4, 90);
+  position: relative;
+  top: 20px;
+  left: 23px;
+  margin-bottom: 80px;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.second-page-section {
+  padding: 20px;
+  width: 500px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1px 80px 1px 80px;
+}
+
+.second-page-section2 {
+  border-radius: 80px 1px 80px 1px;
+  padding: 30px;
+  width: 500px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.second-page-section3 {
+  padding: 20px;
+  border-radius: 1px 80px 1px 80px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.second-page-section4 {
+  border-radius: 80px 1px 80px 1px;
+  padding: 30px;
+  width: 500px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  right: 25px;
+}
+
+.second-class-aside img,
+.second-class-aside2 img,
+.second-class-aside3 img {
+  width: 200px;
+}
+
+.second-class-aside4 img {
+  width: 300px;
+}
+
+.second-page-section h2,
+.second-page-section2 h2,
+.second-page-section3 h2,
+.second-page-section4 h2 {
+  border-bottom: 1px solid peru;
+  width: fit-content;
+}
+
+.second-page-section p,
+.second-page-section2 p,
+.second-page-section3 p,
+.second-page-section4 p {
+  font-family: var(--pop);
+  margin-top: 20px;
+  color: #777777;
+  font-size: 12px;
+}
+
+/* Footer Section
+.
+.
+.
+.
+.
+*/
+
+footer {
+  width: 100vw;
+}
+
+.footer {
+  background-color: rgb(48, 4, 90);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+  padding-bottom: 10px;
+}
+
+.footer-rights {
+  background-color: rgb(48, 4, 90);
+  color: silver;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+#footer-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.second-footer {
+  margin-top: 20px;
+}
+
+#second-footer-last-element {
+  position: relative;
+  bottom: 18px;
+}
+
+.second-footer ul li {
+  list-style-type: none;
+}
+
+.second-footer ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 9px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.second-footer ul li a:hover {
+  border-bottom: 1px solid var(--white);
+}
+
+.footer-logo-main a {
+  padding-left: 4px;
+}
+
+.footer-logo-main a i {
+  color: rgb(134, 132, 132);
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-logo-main a i:hover {
+  color: aliceblue;
+}
+
+.footer-button {
+  border: none;
+  color: var(--white);
+  background-color: var(--pink);
+  padding: 12px;
+  border-radius: 2px 15px;
+}

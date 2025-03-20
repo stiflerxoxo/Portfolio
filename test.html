@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form{
+            margin: 0 auto;
+            background-color: #fff;
+            position: relative;
+        }
+
+        input{
+            width: 400px;
+            height: 40px;
+            background: transparent;
+            border: 1px solid #ccc;
+            transition: all .3s ease;
+            padding: 1 15px;
+        }
+
+        label{
+            position: absolute;
+            cursor: text;
+            z-index: 2;
+            top: 13px;
+            left: 10px;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: #fff;
+            padding: 1 10px;
+            color: #999;
+            transition: all .3s ease;
+        }
+
+        input:focus + label,
+            input:valid + label{
+                font-size: 11px;
+                top: 5px;
+
+            }
+
+        input:focus + label{
+            color: blue;
+        }
+
+        input:focus{
+            border-color: blue;
+            outline: 1px solid blue;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <input type="password" name="" id="password" required>
+        <label for="password">Password</label>
+    </form>
+</body>
+</html>
