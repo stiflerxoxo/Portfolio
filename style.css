@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  width: 98vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -294,7 +294,7 @@ footer {
 .second-footer ul li a {
   text-decoration: none;
   color: aliceblue;
-  font-size: 9px;
+  font-size: 0.9vw;
   font-family: "Open Sans", sans-serif;
 }
 
