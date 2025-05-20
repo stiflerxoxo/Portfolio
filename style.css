@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+
+
 :root {
   overflow-x: hidden;
   --blue: #1e90ff;
@@ -320,4 +322,12 @@ footer {
   background-color: var(--pink);
   padding: 12px;
   border-radius: 2px 15px;
+}
+
+
+@media (max-width: 480px) {
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
