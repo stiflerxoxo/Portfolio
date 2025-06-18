@@ -324,6 +324,10 @@ footer {
   border-radius: 2px 15px;
 }
 
+.footer-button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
 
 @media (max-width: 480px) {
   .section1 {
